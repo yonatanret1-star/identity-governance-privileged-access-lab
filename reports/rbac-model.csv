@@ -1,0 +1,13 @@
+Department,JobRole,Group,Access
+IT,Cloud Engineer,SG-IT-Users,Baseline IT access
+IT,Cloud Engineer,SG-Cloud-Engineers,Cloud engineering resources
+IT,Cloud Engineer,SG-AWS-Developers,AWS developer access
+IT,Help Desk Analyst,SG-IT-Users,Baseline IT access
+IT,Help Desk Analyst,SG-HelpDesk,Help desk tools and support resources
+Finance,Financial Analyst,SG-Finance-Users,Baseline Finance access
+Finance,Financial Analyst,SG-Finance-Analysts,Finance applications and resources
+Finance,Financial Analyst,SG-AWS-ReadOnly,AWS read-only access
+HR,HR Analyst,SG-HR-Users,Baseline HR access
+HR,HR Analyst,SG-HR-Analysts,HR applications and resources
+IT,Privileged Administrator,SG-IT-Users,Baseline IT access
+IT,Privileged Administrator,SG-Privileged-Admins,Privileged administration eligibility
