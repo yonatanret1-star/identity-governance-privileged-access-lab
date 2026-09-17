@@ -6,8 +6,12 @@ $MailNickname = "james.wilson"
 $Department = "IT"
 $JobTitle = "Cloud Engineer"
 
+# Prompt for a temporary password instead of storing it in the script
+$SecurePassword = Read-Host "Enter temporary password" -AsSecureString
+$TempPassword = [System.Net.NetworkCredential]::new("", $SecurePassword).Password
+
 $PasswordProfile = @{
-    Password = "TempPass123!ChangeMe"
+    Password = $TempPassword
     ForceChangePasswordNextSignIn = $true
 }
 
