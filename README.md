@@ -924,7 +924,7 @@ This project demonstrates practical IAM concepts including:
 - Group-based access management
 - Least privilege
 - Entitlement remediation
-- Access reviews
+- Access review concepts / entitlement remediation
 - Privileged access governance
 - Temporary elevated access
 - Microsoft Graph automation
